@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Button from 'antd/lib/button'
 import './index.css'
 
 //functional components
@@ -76,6 +77,10 @@ class Game extends React.Component {
         <div className="game-info">
           <div>{/* status */}</div>
           <ol>{/* TODO */}</ol>
+        </div>
+
+        <div className="App">
+          <Button type="primary">Button</Button>
         </div>
       </div>
     )
